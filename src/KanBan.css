@@ -1,0 +1,213 @@
+.Kanban {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Holder {
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.NewTask {
+  height: 2rem;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:lightseagreen;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.AddT {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 4px;
+ 
+}
+.List {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+   align-items: center;
+  border-radius: 10px;
+  gap: 5px;
+  background-color: seashell;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.Hold {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 30%;
+  height: 27rem;
+  background-color: lightseagreen;;
+  border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   flex-direction: column; 
+   display: flex;
+   justify-content: flex-start;
+   align-content: center;
+}
+.Doing {
+  overflow-y: auto;
+  overflow-x: hidden;
+    width: 30%;
+    height: 27rem;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.Done {
+  overflow-y: auto;
+  overflow-x: hidden;
+    width: 30%;
+    height: 27rem;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.NewInput{
+    width: 93%;
+    border-radius: 10px;
+    border: none;
+}
+.insidehold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: white;
+    height: 4rem;
+}
+.stay{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap:6px;
+
+}
+.stayinside{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: coral;
+    border-radius: 10px;
+}
+.Outside{
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  height: 1rem;
+  border-radius: 10px;
+  background-color: lightslategray;
+}
+.InsideProgress{
+   align-self: baseline;
+      height: 1rem;
+      border-radius: 10px;
+      background-color: lightgreen;
+    }
+.SubmitK{
+  background-color: coral;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 4px;
+  color:darkred;
+  border:none;
+}
+@media  screen and (max-width:1024px){
+  .NewTask{
+    width:70%;
+  }
+  
+  .List{
+    width: 70%;
+  }
+  .Outside{
+    width: 70%;
+  }
+}
+@media  screen and (max-width:914px) {
+  .NewTask{
+    width: 80%;
+
+  }
+  .List{
+    width: 80%;
+  }
+  .Outside{
+    width: 80%;
+  }
+}
+@media screen and (max-width:914px) {
+  .NewTask {
+    width: 85%;
+
+  }
+
+  .List {
+    width: 85%;
+  }
+
+  .Outside {
+    width: 85%;
+  }
+  
+}
+@media screen and (max-width:678px) {
+  .NewTask {
+    width: 85%;
+
+  }
+
+  .List {
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .Outside {
+    width: 85%;
+  }
+  .Done{
+    width: 100%;
+  }
+  .Doing{
+    width: 100%;
+  }
+  .Hold{
+    width: 100%;
+  }
+  /* .stay{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .stayinside{
+    width: fit-content;
+  } */
+}
+

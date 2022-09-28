@@ -1,0 +1,43 @@
+.Navigation{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid seashell;
+    background-color:
+   seashell;
+    position: fixed;
+    border-radius: 50px;
+    width: 70%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightseagreen;
+}
+a{
+    color: lightseagreen;
+    font-size: 1.25rem;
+    background-color: seashell;
+    border:none;
+    text-decoration: none;
+   
+}
+@media screen and  (max-width:680px) {
+    h1{
+        font-size: 1.25rem;
+    }
+    
+    a{
+        font-size: 0.75rem;
+    }
+    .Navigation{
+        width: 80%;
+    }
+}
+@media screen and (max-width:423px) {
+
+    .Navigation {
+        width: 90%;
+    }
+}

@@ -1,0 +1,95 @@
+.DisplayChart{
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.InviteList{
+    padding-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 38rem;
+    background-color: bisque;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: solid lightseagreen 0.5rem;
+    border-radius: 40px;
+    gap: 12px;
+}
+.InviteHolder{
+    display: flex;
+    height: 30rem;
+    width: 85%;
+    flex-direction: column;
+    gap:4px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+.InviteCard{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+.Info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.InviteHead{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.InviteHolder::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+.InviteHolder::-webkit-scrollbar-track {
+    display: hidden;
+    align-self: flex-start;
+}
+
+.InviteHolder::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    align-self: flex-start;
+    background-color: darkgray;
+
+}
+.UsernameInfo{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.TasknameInfo{
+    font-size: 0.85rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Accept{
+    width: 20%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Reject{
+    width: 20%;
+    border-radius: 10px;
+    background-color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Chart{
+    width: 30%;
+}
