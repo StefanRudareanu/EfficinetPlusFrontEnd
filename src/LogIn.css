@@ -1,0 +1,76 @@
+.LogInCard{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 50%;
+    height: 30rem;
+    background-color:bisque;
+    margin-top: 10rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.LeftLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30rem;
+ 
+}
+.LogF{
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;}
+.Head{
+      height: 90%;
+      margin-left: 30px;
+      align-self: center;
+}
+.FormHeader{
+    font-size: 3rem;
+}
+.LogInForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+.Username{
+    width: 100%;
+        height: 30px;
+        border-radius: 25px;
+    padding-left: 10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.Password{
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.Logbtn{
+    width: 30%;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    border-radius: 25px;
+    align-self: center;
+
+}
+.insideform{
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.LB{
+    align-self: flex-start;
+}
